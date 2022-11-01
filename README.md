@@ -1,1 +1,1 @@
-# infa_2022_Bagushevich
+It's test project

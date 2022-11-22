@@ -145,18 +145,13 @@ class Target:
         self.tvy = randint(1, 5)
 
     def new_target(self):
-        """ Инициализация новой цели. """
-        
-        
+        """ Инициализация новой цели. """        
         self.live = 10
         self.x = randint(300, 780)
         self.y = randint(100, 500)
         self.r = randint(30, 50)
-        self.vx = randint(-7, 7)
-        self.vy = randint(-7, 7)
-        self.color = YELLOW
-        
-        
+        self.tvx = randint(-7, 7)
+        self.tvy = randint(-7, 7)   
 
     def hit(self, points=1):
         """Попадание шарика в цель."""
